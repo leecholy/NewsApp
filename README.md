@@ -12,4 +12,4 @@
 - Border Radius
 
 ## Screens
-![이미지 설명글](내_이미지_주소_URL)
+![이미지 설명글](https://github.com/leecholy/NewsApp/blob/main/News_Prototype0.png)
