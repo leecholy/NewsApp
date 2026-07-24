@@ -6,7 +6,7 @@
 
 ## Design Tokens
 
-- Color
+- [Color](https://www.figma.com/design/UWBDgeTCdtPFjQpAik2oUb/NewsApp?node-id=29-1033&t=vJRSS27OGwVAMxwd-1)
 - Typography
 - Spacing
 - Border Radius
