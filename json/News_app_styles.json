@@ -1,0 +1,408 @@
+{
+  "styles": {
+    "colors": [],
+    "textStyles": [
+      {
+        "name": "Tab",
+        "token": "tab",
+        "type": "text",
+        "fontFamily": "AppleSDGothicNeoB00",
+        "fontWeight": "400",
+        "fontSize": "13px",
+        "letterSpacing": "0%"
+      },
+      {
+        "name": "Overline",
+        "token": "overline",
+        "type": "text",
+        "fontFamily": "AppleSDGothicNeoB00",
+        "fontWeight": "400",
+        "fontSize": "11px",
+        "letterSpacing": "0%"
+      },
+      {
+        "name": "Button",
+        "token": "button",
+        "type": "text",
+        "fontFamily": "AppleSDGothicNeoB00",
+        "fontWeight": "400",
+        "fontSize": "11px",
+        "letterSpacing": "0%"
+      },
+      {
+        "name": "Nav",
+        "token": "nav",
+        "type": "text",
+        "fontFamily": "AppleSDGothicNeoR00",
+        "fontWeight": "400",
+        "fontSize": "10px",
+        "letterSpacing": "0%"
+      },
+      {
+        "name": "Heading/H1",
+        "token": "heading-h1",
+        "type": "text",
+        "fontFamily": "AppleSDGothicNeoEB00",
+        "fontWeight": "400",
+        "fontSize": "28px",
+        "letterSpacing": "0%"
+      },
+      {
+        "name": "Heading/H2",
+        "token": "heading-h2",
+        "type": "text",
+        "fontFamily": "AppleSDGothicNeoEB00",
+        "fontWeight": "400",
+        "fontSize": "24px",
+        "letterSpacing": "0%"
+      },
+      {
+        "name": "Heading/H3",
+        "token": "heading-h3",
+        "type": "text",
+        "fontFamily": "AppleSDGothicNeoEB00",
+        "fontWeight": "400",
+        "fontSize": "18px",
+        "letterSpacing": "0%"
+      },
+      {
+        "name": "Heading/H4",
+        "token": "heading-h4",
+        "type": "text",
+        "fontFamily": "AppleSDGothicNeoEB00",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "letterSpacing": "0%"
+      },
+      {
+        "name": "Heading/H5",
+        "token": "heading-h5",
+        "type": "text",
+        "fontFamily": "AppleSDGothicNeoEB00",
+        "fontWeight": "400",
+        "fontSize": "15px",
+        "letterSpacing": "0%"
+      },
+      {
+        "name": "Body/Body1",
+        "token": "body-body1",
+        "type": "text",
+        "fontFamily": "AppleSDGothicNeoR00",
+        "fontWeight": "400",
+        "fontSize": "15px",
+        "lineHeight": 1.5,
+        "letterSpacing": "0%"
+      },
+      {
+        "name": "Body/Body2",
+        "token": "body-body2",
+        "type": "text",
+        "fontFamily": "AppleSDGothicNeoH00",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "letterSpacing": "0%"
+      },
+      {
+        "name": "Caption/Caption1",
+        "token": "caption-caption1",
+        "type": "text",
+        "fontFamily": "AppleSDGothicNeoM00",
+        "fontWeight": "400",
+        "fontSize": "12px",
+        "letterSpacing": "0%"
+      },
+      {
+        "name": "Caption/Caption2",
+        "token": "caption-caption2",
+        "type": "text",
+        "fontFamily": "AppleSDGothicNeoM00",
+        "fontWeight": "400",
+        "fontSize": "11px",
+        "letterSpacing": "0%"
+      }
+    ],
+    "effectStyles": [
+      {
+        "name": "Shadow/1",
+        "token": "shadow-1",
+        "type": "effect",
+        "value": "box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.3)",
+        "effects": [
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 1,
+            "blur": 3,
+            "spread": 1,
+            "color": "rgba(0, 0, 0, 0.15)"
+          },
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 1,
+            "blur": 2,
+            "spread": 0,
+            "color": "rgba(0, 0, 0, 0.3)"
+          }
+        ]
+      },
+      {
+        "name": "Shadow/2",
+        "token": "shadow-2",
+        "type": "effect",
+        "value": "box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 3px 1px 0px rgba(0, 0, 0, 0.12), 0px 2px 2px 0px rgba(0, 0, 0, 0.14)",
+        "effects": [
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 1,
+            "blur": 5,
+            "spread": 0,
+            "color": "rgba(0, 0, 0, 0.2)"
+          },
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 3,
+            "blur": 1,
+            "spread": 0,
+            "color": "rgba(0, 0, 0, 0.12)"
+          },
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 2,
+            "blur": 2,
+            "spread": 0,
+            "color": "rgba(0, 0, 0, 0.14)"
+          }
+        ]
+      },
+      {
+        "name": "Shadow/4",
+        "token": "shadow-4",
+        "type": "effect",
+        "value": "box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2), 0px 3px 3px 0px rgba(0, 0, 0, 0.12), 0px 3px 4px 0px rgba(0, 0, 0, 0.14)",
+        "effects": [
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 1,
+            "blur": 8,
+            "spread": 0,
+            "color": "rgba(0, 0, 0, 0.2)"
+          },
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 3,
+            "blur": 3,
+            "spread": 0,
+            "color": "rgba(0, 0, 0, 0.12)"
+          },
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 3,
+            "blur": 4,
+            "spread": 0,
+            "color": "rgba(0, 0, 0, 0.14)"
+          }
+        ]
+      },
+      {
+        "name": "Shadow/6",
+        "token": "shadow-6",
+        "type": "effect",
+        "value": "box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2), 0px 1px 18px 0px rgba(0, 0, 0, 0.12), 0px 6px 10px 0px rgba(0, 0, 0, 0.14)",
+        "effects": [
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 3,
+            "blur": 5,
+            "spread": 0,
+            "color": "rgba(0, 0, 0, 0.2)"
+          },
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 1,
+            "blur": 18,
+            "spread": 0,
+            "color": "rgba(0, 0, 0, 0.12)"
+          },
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 6,
+            "blur": 10,
+            "spread": 0,
+            "color": "rgba(0, 0, 0, 0.14)"
+          }
+        ]
+      },
+      {
+        "name": "Shadow/8",
+        "token": "shadow-8",
+        "type": "effect",
+        "value": "box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2), 0px 3px 14px 0px rgba(0, 0, 0, 0.12), 0px 8px 10px 0px rgba(0, 0, 0, 0.14)",
+        "effects": [
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 5,
+            "blur": 5,
+            "spread": 0,
+            "color": "rgba(0, 0, 0, 0.2)"
+          },
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 3,
+            "blur": 14,
+            "spread": 0,
+            "color": "rgba(0, 0, 0, 0.12)"
+          },
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 8,
+            "blur": 10,
+            "spread": 0,
+            "color": "rgba(0, 0, 0, 0.14)"
+          }
+        ]
+      },
+      {
+        "name": "Shadow/10",
+        "token": "shadow-10",
+        "type": "effect",
+        "value": "box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.2), 0px 3px 16px 0px rgba(0, 0, 0, 0.12), 0px 9px 12px 0px rgba(0, 0, 0, 0.14)",
+        "effects": [
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 5,
+            "blur": 6,
+            "spread": 0,
+            "color": "rgba(0, 0, 0, 0.2)"
+          },
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 3,
+            "blur": 16,
+            "spread": 0,
+            "color": "rgba(0, 0, 0, 0.12)"
+          },
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 9,
+            "blur": 12,
+            "spread": 0,
+            "color": "rgba(0, 0, 0, 0.14)"
+          }
+        ]
+      },
+      {
+        "name": "Shadow/12",
+        "token": "shadow-12",
+        "type": "effect",
+        "value": "box-shadow: 0px 7px 8px 0px rgba(0, 0, 0, 0.2), 0px 5px 22px 0px rgba(0, 0, 0, 0.12), 0px 12px 17px 0px rgba(0, 0, 0, 0.14)",
+        "effects": [
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 7,
+            "blur": 8,
+            "spread": 0,
+            "color": "rgba(0, 0, 0, 0.2)"
+          },
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 5,
+            "blur": 22,
+            "spread": 0,
+            "color": "rgba(0, 0, 0, 0.12)"
+          },
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 12,
+            "blur": 17,
+            "spread": 0,
+            "color": "rgba(0, 0, 0, 0.14)"
+          }
+        ]
+      },
+      {
+        "name": "Shadow/16",
+        "token": "shadow-16",
+        "type": "effect",
+        "value": "box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2), 0px 6px 30px 0px rgba(0, 0, 0, 0.12), 0px 16px 24px 0px rgba(0, 0, 0, 0.14)",
+        "effects": [
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 8,
+            "blur": 10,
+            "spread": 0,
+            "color": "rgba(0, 0, 0, 0.2)"
+          },
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 6,
+            "blur": 30,
+            "spread": 0,
+            "color": "rgba(0, 0, 0, 0.12)"
+          },
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 16,
+            "blur": 24,
+            "spread": 0,
+            "color": "rgba(0, 0, 0, 0.14)"
+          }
+        ]
+      },
+      {
+        "name": "Shadow/24",
+        "token": "shadow-24",
+        "type": "effect",
+        "value": "box-shadow: 0px 11px 15px 0px rgba(0, 0, 0, 0.2), 0px 9px 46px 0px rgba(0, 0, 0, 0.12), 0px 24px 38px 0px rgba(0, 0, 0, 0.14)",
+        "effects": [
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 11,
+            "blur": 15,
+            "spread": 0,
+            "color": "rgba(0, 0, 0, 0.2)"
+          },
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 9,
+            "blur": 46,
+            "spread": 0,
+            "color": "rgba(0, 0, 0, 0.12)"
+          },
+          {
+            "type": "drop-shadow",
+            "x": 0,
+            "y": 24,
+            "blur": 38,
+            "spread": 0,
+            "color": "rgba(0, 0, 0, 0.14)"
+          }
+        ]
+      }
+    ],
+    "gridStyles": []
+  }
+}
