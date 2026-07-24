@@ -12,4 +12,4 @@
 - Border Radius
 
 ## Screens
-<img src="News_Protype0.png" alt="dashboard">
+![이미지 설명글](내_이미지_주소_URL)
