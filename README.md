@@ -12,4 +12,4 @@
 - Border Radius
 
 ## Screens
-<img src="./preview/News_Protype0.png" alt="dashboard">
+<img src="News_Protype0.png" alt="dashboard">
