@@ -1,4 +1,4 @@
-# My Design System
+# NewAPP Design System
 
 ## Figma
 
